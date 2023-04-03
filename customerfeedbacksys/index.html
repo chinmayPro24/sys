@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadguru Medical & General Stores | Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer type="module"></script>
+</head>
+<body>
+    <nav>
+        <h1>Sadguru Medical & General Stores</h1>
+    </nav>
+
+    <marquee behavior="" direction="">Welcome to Sadguru Medical & General Store, Get your Medicines at Affordable Rates.</marquee>
+<div class="container">
+    <h3>Name</h3>
+    <input id="namefield" type="text" placeholder="Enter your Name">
+    <h3>Contact No.</h3>
+    <input id="number" type="number" placeholder="Enter your Phone No.">
+    <h3>Common Illness</h3>
+    <input id="illness" type="text" placeholder="Enter your Common illness">
+    <div class="rating">
+        <h3>Rating</h3>
+        <img src="./img/unfilled-star.png" id="star#1" alt="" onclick="rating1()">
+        <img src="./img/unfilled-star.png" id="star#2" alt="" onclick="rating2()">
+        <img src="./img/unfilled-star.png" id="star#3" alt="" onclick="rating3()">
+        <img src="./img/unfilled-star.png" id="star#4" alt="" onclick="rating4()">
+    </div>
+    <h3>Feedback (Optional)</h3>
+    <textarea id="feedback" cols="35" rows="5"></textarea>
+    <button id="submit-btn">Submit</button>
+</div>
+<script src="./rating.js"></script>  
+</body>
+</html>
